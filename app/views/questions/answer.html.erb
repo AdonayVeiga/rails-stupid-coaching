@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="card question">
+    <p><%= @question %></p>
+    <p>- You</p>
+  </div>
+
+  <div class="card answer">
+    <p><%= @answer %></p>
+    <p>- Your Coach</p>
+  </div>
+
+  <%= link_to 'Ask a new question', ask_path %>
+</div>
